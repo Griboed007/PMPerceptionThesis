@@ -17,7 +17,7 @@ def main() -> None:
     with gzip.open(SRC, "rb") as f_in, DEST.open("wb") as f_out:
         shutil.copyfileobj(f_in, f_out)
 
-    print("✅  Done – unpacked size:", DEST.stat().st_size, "bytes")
+    print("  Done – unpacked size:", DEST.stat().st_size, "bytes")
 
 if __name__ == "__main__":
     main()
