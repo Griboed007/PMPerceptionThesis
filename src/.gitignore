@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm project settings
+.idea/
+
+# Logs and datasets
+*.xes
+*.xes.gz
+*.log
+*.csv
+*.xml
+*.json
+
+# Output images / plots
+*.png
+*.pdf
+*.svg
+
+# OS metadata
+.DS_Store
+Thumbs.db
